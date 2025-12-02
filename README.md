@@ -23,10 +23,9 @@ To implement Ridge, Lasso, and ElasticNet regularization models using polynomial
 ```
 /*
 Program to implement Ridge, Lasso, and ElasticNet regularization using pipelines.
-Developed by: Nandhana R 
-RegisterNumber:  212223040124
-
-
+Developed by: NANDHANA R
+RegisterNumber: 212223040124
+*/
 
 
 import pandas as pd
@@ -91,8 +90,8 @@ for name, model in models.items():
     results[name] = {'MSE': mse, 'R² Score': r2}
 
 # Print results
-print('Name: NIXAN DASS A')
-print('Reg. No: 212222040109')
+print('Name:  NANDHANA R')
+print('Reg. No: 212223040124')
 for model_name, metrics in results.items():
     print(f"{model_name} - Mean Squared Error: {metrics['MSE']:.2f}, R² Score: {metrics['R² Score']:.2f}")
 
@@ -122,7 +121,6 @@ plt.xticks(rotation=45)
 # Show the plots
 plt.tight_layout()
 plt.show()
-*/
 ```
 
 ## Output:
